@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <figure>
+        <img src="images\火影-起舞.jpg" 
+            alt="火影-起舞" 
+            width="100" 
+            height="100">
+        <figcaption>A dance idols</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="images/黃猿皮卡丘.jpeg" 
+            alt="黃猿皮卡丘" 
+            width="100" 
+            height="100">
+        <figcaption>A yallow mouse</figcaption>
+    </figure>
+
+    <video src="楓之谷【登入背景音樂】.mp3" controls>
+        <p>你的浏览器不支持 HTML5 视频。可点击<a href="楓之谷【登入背景音樂】.mp3">此链接</a>观看</p>
+    </video>
+
+    <video controls>
+        <source src="rabbit320.mp4" type="video/mp4">
+        <source src="rabbit320.webm" type="video/webm">
+        <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+    </video>
+
+      <video controls width="400" height="400"
+      autoplay loop muted
+      poster="poster.png"
+      preload="auto">
+      <source src="rabbit320.mp4" type="video/mp4">
+      <source src="rabbit320.webm" type="video/webm">
+      <p>你的浏览器不支持 HTML5 视频。可点击<a href="rabbit320.mp4">此链接</a>观看</p>
+    </video>
+
+    <video controls>
+        <source src="rabbit320.mp4" type="video/mp4">
+        <source src="rabbit320.webm" type="video/webm">
+        <track kind="subtitles" src="test.vtt" srclang="en">
+    </video>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/kS3WEQDBE7I" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14726.985530589101!2d120.33201895000002!3d22.6632427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1643371794938!5m2!1szh-TW!2stw" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+    
+    <object 
+        data="110637.pdf" type="application/pdf"
+        width="800" height="1200" typemustmatch>
+        <p>You don't have a PDF plugin, but you can <a href="110637.pdf">download the PDF file.</a></p>
+    </object>
+
+    <svg 
+        version="1.1"
+        baseProfile="full"
+        width="300" height="200"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="black" />
+        <circle cx="150" cy="100" r="90" fill="blue" />
+    </svg>
+
+    <svg width="300" height="200">
+        <rect width="100%" height="100%" fill="green" />
+    </svg>
+
+    <img srcset="elva-fairy-320w.jpg 320w,
+             elva-fairy-480w.jpg 480w,
+             elva-fairy-800w.jpg 800w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+     src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+
+</body>
+</html>
